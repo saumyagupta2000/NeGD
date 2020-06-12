@@ -1,0 +1,1311 @@
+<!DOCTYPE html>  
+<html>
+   <head>
+      <title>negd 123</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+     
+   </head>
+   <body>
+      <br /><br />  
+      <div class="container" style="width:900px;">
+         <h2 align="center">NeGD DATA</h2>
+         <br /><br />  
+         <div align="center">
+             <div  class="col-md-4">
+              <select class="form-control" onchange="filter(this.value)" name="cars" id="cars">
+               <option value="all" selected="true">All</option>
+                <option value="president_ceo">PRESIDENT & CEO</option>
+                <option value="president_ceo_office">PRESIDENT & CEO OFFICE</option>
+                <option value="coo_directors">COO/DIRECTORS</option>
+                <option value="programme_management">PROGRAM MANAGEMENT</option>
+                <option value="umang">UMANG</option>
+                <option value="digilocker">DIGILOCKER & OPENFORCE</option>
+                <option value="nationalcenter">NATION CENTRE OF GEO-INFORMATICS</option>
+                <option value="rapid">RAPID ASSESMENT SYSTEM</option>
+                <option value="pmis">PROGRAM MANAGEMENT INFORMATION SYSTEM</option>
+                <option value="capacity_building">CAPACITY BUILDING</option>
+                <option value="awc">AWARENESS & COMMUNICATION</option>
+                <option value="finance">FINANCE</option>
+                <option value="human_res">HUMAN RESOURCE</option>
+                <option value="administration">ADMINISTRATION</option>
+                <option value="MeGST">MINISTRY E-GOVERNANCE SUPPORT TEAM</option>
+                <option value="it_support">IT SUPPORT TEAM</option>
+                <option value="ex_support_team">EXECUTIVES AND SUPPORT STAFF</option>
+                
+            </select>
+             </div>
+            <div class="col-md-8"> <input type="text" name="search" id="search" class="form-control" />  </div>
+         </div>
+      </br></br>  
+         <div class="table-responsive" >
+            <table class="table table-bordered" id="employee_table">
+               <tr>
+                  <th width="20%">Name</th>
+                  <th width="27%">Designation</th>
+                  <th width="31%">Email</th>
+                  <th>Contact Number</th>
+               </tr>
+                   
+                <tr class="president_ceo">
+                    <td colspan="4" style="text-align: center;"><strong>PRESIDENT &amp; CEO</strong></td>
+                </tr>
+                <tr class="president_ceo">
+                    <td>Shri Abhishek Singh, IAS</td>
+                    <td>President &amp; Chief Executive Officer</td>
+                    <td>ceo[at]digitalindia[dot]gov[dot]in</td>
+                    <td>011-24303701</td>
+                </tr>
+               <tr class="president_ceo_office">
+                  <td colspan="4" style="text-align: center;"><strong>PRESIDENT &amp; CEO OFFICE</strong></td>
+               </tr>
+               <tr class="president_ceo_office">
+                  <td>Prasanna Kumar Parida</td>
+                  <td>Executive Secretary</td>
+                  <td>prasanna.parida[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303701</td>
+               </tr>
+               <tr class="president_ceo_office">
+                  <td>Chandan Singh</td>
+                  <td>Executive Secretary</td>
+                  <td>chandan[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303701</td>
+               </tr>
+               <tr class="coo_directors">
+                  <td colspan="4" style="text-align: center;"><strong>COO/DIRECTORS</strong></td>
+               </tr>
+               <tr class="coo_directors">
+                  <td>Vinay Thakur</td>
+                  <td>Chief Operating Officer</td>
+                  <td>vinay[at]gov[dot]in</td>
+                  <td>011-24303700</td>
+               </tr>
+               <tr class="coo_directors">
+                  <td>Neeraj Kumar</td>
+                  <td>Director - Project Appraisal &amp; Finance and Projects (UMANG and RAS)</td>
+                  <td>neeraj[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303703</td>
+               </tr>
+               <tr  class="coo_directors">
+                  <td>Debabrata Nayak</td>
+                  <td>Addl. Director - DigiLocker</td>
+                  <td>d[dot]nayak[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303709</td>
+               </tr>
+               <tr  class="programme_management">
+                  <td colspan="4" style="text-align: center;"><strong>PROGRAMME MANAGEMENT</strong></td>
+               </tr>
+               <tr  class="programme_management">
+                  <td>Bramhanand Jha</td>
+                  <td>Senior Consultant</td>
+                  <td>bramhanand.jha[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303711</td>
+               </tr>
+               <tr  class="programme_management">
+                  <td>Tushar Rai</td>
+                  <td>Senior Consultant</td>
+                  <td>tushar[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303759</td>
+               </tr>
+               <tr  class="programme_management">
+                  <td>Reshma Agarwal</td>
+                  <td>Consultant</td>
+                  <td>reshma.agarwal[at]digitalindia[dot]gov[dot]in</td>
+                  <td>&nbsp;</td>
+               </tr>
+               <tr  class="programme_management">
+                  <td>Ajeet Kumar</td>
+                  <td>Consultant</td>
+                  <td>ajit.vishen[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303713</td>
+               </tr>
+               <tr  class="umang">
+                  <td colspan="4" style="text-align: center;"><strong>UMANG</strong></td>
+               </tr>
+               <tr class="umang">
+                  <td>Anil Agarwal</td>
+                  <td>Principal Consultant &amp; Head - UMANG</td>
+                  <td>anil.agarwal[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303782</td>
+               </tr>
+               <tr class="umang">
+                  <td>Amit Kumar</td>
+                  <td>Senior Consultant</td>
+                  <td>amitkr[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303704</td>
+               </tr>
+               <tr class="umang">
+                  <td>Pankaj Kumar Srivastava</td>
+                  <td>Senior Consultant</td>
+                  <td>pankaj.sri[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303756</td>
+               </tr>
+               <tr class="umang">
+                  <td>Sanjay Varyani</td>
+                  <td>Senior Consultant</td>
+                  <td>sanjayvaryani[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303704</td>
+               </tr>
+               <tr class="umang">
+                  <td>Vikas Sheel Gupta</td>
+                  <td>Consultant</td>
+                  <td>vikas.gupta[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303756</td>
+               </tr>
+               <tr class="umang">
+                  <td>Kriti Gupta</td>
+                  <td>Tester</td>
+                  <td>kriti.gupta.k[at]digitalindia[dot]gov[dot]in&nbsp;</td>
+                  <td>011-24303722</td>
+               </tr>
+               <tr class="umang">
+                  <td>Shipra Saxena</td>
+                  <td>Tester</td>
+                  <td>shipra[dot]saxena[at]digitalindia[dot]gov[dot]in&nbsp;</td>
+                  <td>011-24303718</td>
+               </tr>
+               <tr class="digilocker">
+                  <td colspan="4" style="text-align: center;"><strong>DIGILOCKER &amp; OPENFORGE</strong></td>
+               </tr>
+               <tr class="digilocker">
+                  <td>Amit Jain</td>
+                  <td>Senior Consultant</td>
+                  <td>amitjain[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303761</td>
+               </tr>
+               <tr class="digilocker">
+                  <td>Amit Savant</td>
+                  <td>Senior Consultant</td>
+                  <td>amitsavant[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303735</td>
+               </tr>
+               <tr class="digilocker">
+                  <td>Amit Ranjan</td>
+                  <td>Lead Product Architect</td>
+                  <td>amitranjan[at]digitalindia[dot]gov[dot]in</td>
+                  <td>&nbsp;</td>
+               </tr>
+               <tr class="digilocker">
+                  <td>Durga Prasad Dash</td>
+                  <td>Senior Consultant</td>
+                  <td>durga[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303758</td>
+               </tr>
+               <tr class="digilocker">
+                  <td>Arvind Rai</td>
+                  <td>Consultant</td>
+                  <td>arvind[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303770</td>
+               </tr>
+               <tr class="digilocker">
+                  <td>Ajoy Agarwal</td>
+                  <td>Consultant</td>
+                  <td>ajoy[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303752</td>
+               </tr>
+               <tr class="digilocker">
+                  <td>Prasoon Kumar</td>
+                  <td>Consultant</td>
+                  <td>prasoon.k[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303735</td>
+               </tr>
+               <tr class="digilocker">
+                  <td>Nirmit Mehrotra</td>
+                  <td>Senior Business Analyst</td>
+                  <td>nirmit.mehrotra[at]digitalindia[dot]gov[dot]in</td>
+                  <td>011-24303758</td>
+               </tr>
+               <tr class="digilocker">
+                  <td>Anand Kumar</td>
+                  <td>Web Application Developer</td>
+                  <td>anand[at]digitalindia[dot]gov[dot]in</td>
+                  <td>-</td>
+               </tr>
+               <tr class="digilocker">
+                  <td>Abhishek Kumar</td>
+                  <td>System Administrator</td>
+                  <td>abhishekkr[at]digitalindia[dot]gov[dot]in</td>
+                  <td>-</td>
+               </tr>
+               <tr class="digilocker">
+                  <td>Ankur Shukla</td>
+                  <td>Web Designer</td>
+                  <td>ankur.s[at]digitalindia[dot]gov[dot]in</td>
+                  <td>-</td>
+               </tr>
+               <tr class="digilocker">
+                <td>Ashish Ranjan</td>
+                <td>Developer (PHP / PYTHON)</td>
+                <td>ashish.ranjan[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Ajit Kumar</td>
+                <td>Web Application Developer</td>
+                <td>ajit.kumar[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Akshay Kumar Ray</td>
+                <td>Functional Tester</td>
+                <td>akshay.ray[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Alok Ranjan</td>
+                <td>Web Application Developer</td>
+                <td>alok.ranjan[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Amit Ranjan</td>
+                <td>PHP Developer</td>
+                <td>ranjan[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Durgesh Kumar Singh</td>
+                <td>Web UX Designer</td>
+                <td>durgesh.singh[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Kuldeep Dwivedi</td>
+                <td>Android Developer</td>
+                <td>kuldeep.dwivedi[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303739</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Moorchhana Pattanaik</td>
+                <td>Wed Application Developer</td>
+                <td>moorchhana[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Neha Tuli</td>
+                <td>Software Developer</td>
+                <td>neha.tuli[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Priyank Khare</td>
+                <td>IT Analyst</td>
+                <td>priyank.khare[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303744</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Raushan Kumar Singh</td>
+                <td>System Administrator</td>
+                <td>raushan[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Sanchita Bajaj</td>
+                <td>IT Analyst</td>
+                <td>sanchita[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303770</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Srishti Srivastava</td>
+                <td>Web Application Developer</td>
+                <td>srishti[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Suman Prasad</td>
+                <td>UX Designer</td>
+                <td>suman[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Sunil Kumar Mahato</td>
+                <td>Web Application Developer</td>
+                <td>sunilkm[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Sanjib Mitra</td>
+                <td>Business Analyst</td>
+                <td>sanjibmitra[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303761</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Naveen Chauhan</td>
+                <td>IOS Develper</td>
+                <td>naveen.chauhan[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303741</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Sandeep Kumawat</td>
+                <td>Backend Developer</td>
+                <td>s.kumawat[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Thakurdas Rautaray</td>
+                <td>Backend Developer</td>
+                <td>rthakurdas[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Jitendra Kumar</td>
+                <td>Software Developer</td>
+                <td>jitendra[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Rajiv Ranjan Ojha</td>
+                <td>Web Application Developer</td>
+                <td>rajivojha[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303761</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Indresh Singh Bhadoria</td>
+                <td>Web Application Developer</td>
+                <td>indresh[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Saurabh Kumar Pandey</td>
+                <td>Web Application Developer</td>
+                <td>saurabh[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Govind Sharma</td>
+                <td>Test Engineer</td>
+                <td>govind.sharma10[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Swati Goyal</td>
+                <td>Onboarding Support</td>
+                <td>swati.goyal23[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Anjali Kumari</td>
+                <td>Help Desk</td>
+                <td>anjalikumari[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Rajeev</td>
+                <td>Consultant</td>
+                <td>-</td>
+                <td>011- 24303715</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Karan</td>
+                <td>Consultant</td>
+                <td>-</td>
+                <td>011- 24303728</td>
+             </tr>
+             <tr class="digilocker">
+                <td>Anoop Kumar</td>
+                <td>Consultant</td>
+                <td>anoop[dot]kumar13[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303711</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td colspan="4" style="text-align: center;"><strong>NATIONAL CENTRE OF GEO-INFORMATICS</strong></td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Tushar Rai</td>
+                <td>Senior Consultant</td>
+                <td>tushar[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303759</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Shiv Gupta</td>
+                <td>Manager</td>
+                <td>shiv.gupta[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303759</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Sheena Bhalaik</td>
+                <td>Assistant Manager</td>
+                <td>sheena.b[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303737</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Amit Ranjan</td>
+                <td>PHP Developer</td>
+                <td>ranjan[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Ankur Shukla</td>
+                <td>Web Designer</td>
+                <td>ankur.s[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Karan Gupta</td>
+                <td>Database Manager</td>
+                <td>gupta.karan[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Vikas Kumar Choubey</td>
+                <td>Mobile Developer</td>
+                <td>vikaschoubey[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303781</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Sudhanshu Srivastava</td>
+                <td>Software Developer</td>
+                <td>sudhanshu[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303780</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Md Sharfuddin Ansari</td>
+                <td>Software Developer</td>
+                <td>sharfuddin[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303775</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Rupali Rawat</td>
+                <td>GIS Expert</td>
+                <td>roopali.rawat[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303783</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Priyanka Ojha</td>
+                <td>Software Developer</td>
+                <td>priyankaojha[at]digital[dot]gov[dot]in</td>
+                <td>011-24303775</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Vineet Kumar Singh</td>
+                <td>QA / Testing Expert</td>
+                <td>vineet[dot]singh[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303781</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Rupesh Kumar</td>
+                <td>System Admin</td>
+                <td>rupesh[dot]kumar[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Sahil Monga</td>
+                <td>Consultant</td>
+                <td>sahil[dot]monga[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303718</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Amit</td>
+                <td>Software Developer</td>
+                <td>amit[dot]bansal2211[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Aarti Jha</td>
+                <td>-</td>
+                <td>-</td>
+                <td>011-24303741</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Sanjay Singh</td>
+                <td>-</td>
+                <td>sanjay[dot]singh217[at]digitalindia[dot]gov[dot]in</td>
+                <td>+91-8802030364</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Akancha Singh</td>
+                <td>Web Designer</td>
+                <td>Akancha[dot]singh[at]digitalindia[dot]gov[dot]in</td>
+                <td>+91-8510047373</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Rashmi Agarwal</td>
+                <td>Software Developer</td>
+                <td>rashmi[dot]agrawal[at]digitalindia[dot]gov[dot]in</td>
+                <td>+91-9769496511</td>
+             </tr>
+             <tr class="nationalcenter">
+                <td>Neelu Chaudhary</td>
+                <td>Assistant Manager</td>
+                <td>neelu[dot]chaudhary[at]digitalindia[dot]gov[dot]in</td>
+                <td>+91-7838659562</td>
+             </tr>
+             <tr class="rapid">
+                <td colspan="4" style="text-align: center;"><strong>RAPID ASSESSMENT SYSTEM</strong></td>
+             </tr>
+             <tr class="rapid">
+                <td>Rajesh Loona</td>
+                <td>Senior Consultant</td>
+                <td>rajesh.loona[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303713</td>
+             </tr>
+             <tr class="rapid">
+                <td>Apoorva Joshi</td>
+                <td>Database Developer</td>
+                <td>apoorva.joshi[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303719</td>
+             </tr>
+             <tr class="rapid">
+                <td>Saahil Chadha</td>
+                <td>PHP Developer</td>
+                <td>saahil.chadha[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303718</td>
+             </tr>
+             <tr class="rapid">
+                <td>Vikash Kumar</td>
+                <td>PHP Developer</td>
+                <td>vikash.kumar[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="rapid">
+                <td>Manisha Agarwal</td>
+                <td>Web Designer &amp; Developer</td>
+                <td>manisha[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="pmis">
+                <td colspan="4" style="text-align: center;"><strong>PROGRAMME MANAGEMENT INFORMATION SYSTEM</strong></td>
+             </tr>
+             <tr class="pmis">
+                <td>Reshma Agarwal</td>
+                <td>Consultant</td>
+                <td>reshma.agarwal[at]digitalindia[dot]gov[dot]in</td>
+                <td>-</td>
+             </tr>
+             <tr class="pmis">
+                <td>Sugandha Kapoor</td>
+                <td>Software Developer</td>
+                <td>sugandha[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303780</td>
+             </tr>
+             <tr class="pmis">
+                <td>Deepak Kumar</td>
+                <td>UI/ UX Designer</td>
+                <td>deepak.bemaad[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303781</td>
+             </tr>
+             <tr class="pmis">
+                <td>Anusha Gupta</td>
+                <td>Software Engineer</td>
+                <td>anusha.gupta[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303774</td>
+             </tr>
+             <tr class="pmis">
+                <td>Rajeev Kumar</td>
+                <td>PHP Developer</td>
+                <td>rajeev.kumar[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303775</td>
+             </tr>
+             <tr class="pmis">
+                <td>Raghvender Singh</td>
+                <td>Software Developer</td>
+                <td>raghvender.singh7[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303774</td>
+             </tr>
+             <tr class="pmis">
+                <td>Dhara</td>
+                <td>Software Developer</td>
+                <td>dhara.sd03[at]nic[dot]in</td>
+                <td>011-24303780</td>
+             </tr>
+             <tr class="pmis">
+                <td>Chandra Mohan Dubey</td>
+                <td>Software Developer</td>
+                <td>chander[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303783</td>
+             </tr>
+             <tr class="pmis">
+                <td>Ramu Kumar</td>
+                <td>Data Entry Operator to Dir. (Projects)</td>
+                <td>ramu.k[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303750</td>
+             </tr>
+             <tr class="capacity_building">
+                <td colspan="4" style="text-align: center;"><strong>CAPACITY BUILDING</strong></td>
+             </tr>
+             <tr class="capacity_building">
+                <td>Kamal Jain</td>
+                <td>Senior General Manager</td>
+                <td>kamal.jain[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303702</td>
+             </tr>
+             <tr class="capacity_building">
+                <td>Shilohu Rao NJP</td>
+                <td>General Manager - Capacity Building/ RTI/ Public Grievance Cell</td>
+                <td>shilohu[at]digitalindia[dot]gov[dot]in</td>
+                <td>011- 24303787</td>
+             </tr>
+             <tr class="capacity_building">
+                <td>Ruchee Arora</td>
+                <td>Consultant</td>
+                <td>ruchee.arora[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303751</td>
+             </tr>
+             <tr class="capacity_building">
+                <td>Pooja Kandpal Singh</td>
+                <td>Consultant</td>
+                <td>pooja.kandpal[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303757</td>
+             </tr>
+             <tr class="capacity_building">
+                <td>Vinay Singh</td>
+                <td>Consultant</td>
+                <td>vinay.singh[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303784</td>
+             </tr>
+             <tr class="capacity_building">
+                <td>Mohd. Firoj</td>
+                <td>Manager - KMS/ RTI / Public Grievance</td>
+                <td>firoz[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303785</td>
+             </tr>
+             <tr class="capacity_building">
+                <td>Bhumika Suri</td>
+                <td>e-Learning Specialist</td>
+                <td>bhumika.suri[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303786</td>
+             </tr>
+             <tr class="capacity_building">
+                <td>Vimal Sharma</td>
+                <td>Consultant - LMS</td>
+                <td>vimal.sharma[at]digitalindia[dot]gov[dot]in</td>
+                <td>011-24303785</td>
+             </tr>
+             <tr class="awc">
+                 <td colspan="4" style="text-align: center;"><strong>AWARENESS &amp; COMMUNICATION</strong></td>
+              </tr>
+              <tr class="awc">
+                 <td>Barnali Mukherjee</td>
+                 <td>Lead Consultant</td>
+                 <td>barnali[at]digitalindia[dot]gov[dot]in&nbsp;</td>
+                 <td>011-24303753</td>
+              </tr>
+              <tr class="awc">
+                 <td>Pranjal Jyoti Kalita</td>
+                 <td>Consultant Specialist</td>
+                 <td>pranjal.kalita[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303729</td>
+              </tr>
+              <tr class="awc">
+                 <td>Shailendra Saxena</td>
+                 <td>Deputy General Manager</td>
+                 <td>shailsaxena[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303727</td>
+              </tr>
+              <tr class="awc">
+                 <td>Priyanka Monga</td>
+                 <td>Consultant</td>
+                 <td>priyanka.monga[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303726</td>
+              </tr>
+              <tr class="awc">
+                 <td>Anuj Kaushal</td>
+                 <td>Manager</td>
+                 <td>anuj[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303730</td>
+              </tr>
+              <tr class="awc">
+                 <td>Payel Bhattacharjee</td>
+                 <td>Consultant&nbsp;</td>
+                 <td>payel[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303753</td>
+              </tr>
+              <tr class="awc">
+                 <td>Zaara Qamar</td>
+                 <td>Consultant</td>
+                 <td>zaara.qamar[at]digitalindia[dot]gov[dot]in</td>
+                 <td>9910085359</td>
+              </tr>
+              <tr class="awc">
+                 <td>Charu Sharma</td>
+                 <td>Assistant Manager</td>
+                 <td>charu.sharma[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303757</td>
+              </tr>
+              <tr class="awc">
+                 <td>Kanwarjot Singh</td>
+                 <td>Manager</td>
+                 <td>kanwarjot[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303750</td>
+              </tr>
+              <tr class="awc">
+                 <td>Vibhash Kumar</td>
+                 <td>Developer</td>
+                 <td>vibhash.kumar.di[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303717</td>
+              </tr>
+              <tr class="awc">
+                 <td>Suraj Arora</td>
+                 <td>Sr Graphic Designer</td>
+                 <td>suraj[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303749</td>
+              </tr>
+              <tr class="awc">
+                 <td>Neha Anjali</td>
+                 <td>Graphic Designer</td>
+                 <td>neha.anjali[at]digitalindia[dot]gov[dot]in</td>
+                 <td>-</td>
+              </tr>
+              <tr class="finance">
+                 <td colspan="4" style="text-align: center;"><strong>FINANCE</strong></td>
+              </tr>
+              <tr class="finance">
+                 <td>G R Sharma</td>
+                 <td>Senior General Manager</td>
+                 <td>grsharma[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303706</td>
+              </tr>
+              <tr class="finance">
+                 <td>G. N. Kalia</td>
+                 <td>General Manager</td>
+                 <td>gn.kalia[at]digitalindia[dot]gov[dot]in, gn.kalia[at]nic[dot]in</td>
+                 <td>011-24303755</td>
+              </tr>
+              <tr class="finance">
+                 <td>Jagmohan Dhoundiyal</td>
+                 <td>Consultant</td>
+                 <td>jagmohan.dh[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303731</td>
+              </tr>
+              <tr class="finance">
+                 <td>Ranjan Kumar</td>
+                 <td>Consultant</td>
+                 <td>ranjank[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303734</td>
+              </tr>
+              <tr class="human_res">
+                 <td colspan="4" style="text-align: center;"><strong>HUMAN RESOURCES</strong></td>
+              </tr>
+              <tr class="human_res">
+                 <td>R.A. Dhawan</td>
+                 <td>Senior General Manager (Admin &amp; HR)</td>
+                 <td>r.dhawan[at]digitalindia[dot]gov[dot]in, r.dhawan[at]meity[dot]gov[dot].in</td>
+                 <td>011-24303707</td>
+              </tr>
+              <tr class="human_res">
+                 <td>Manoj Bhagat</td>
+                 <td>Senior Consultant</td>
+                 <td>manojbhagat[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303752</td>
+              </tr>
+              <tr class="human_res">
+                 <td>Sagorika Shau</td>
+                 <td>Consultant</td>
+                 <td>sagorika.shau[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303740</td>
+              </tr>
+              <tr class="administration">
+                 <td colspan="4" style="text-align: center;"><strong>ADMINISTRATION</strong></td>
+              </tr>
+              <tr class="administration">
+                 <td>R.A. Dhawan</td>
+                 <td>Senior General Manager (Admin &amp; HR)</td>
+                 <td>r.dhawan[at]digitalindia[dot]gov[dot]in, r.dhawan[at]meity[dot]gov[dot]in</td>
+                 <td>011-24303707</td>
+              </tr>
+              <tr class="MeGST">
+                 <td colspan="4" style="text-align: center;"><strong>MINISTRY E- GOVERNANCE SUPPORT TEAM</strong></td>
+              </tr>
+              <tr class="MeGST">
+                 <td>&nbsp;</td>
+                 <td>&nbsp;</td>
+                 <td>&nbsp;</td>
+                 <td>&nbsp;</td>
+              </tr>
+              <tr class="MeGST">
+                 <td>Chittaranjan Sawaijam</td>
+                 <td>Consultant</td>
+                 <td>chittaranjan[at]digitalindia[dot]gov[dot]in</td>
+                 <td>9999278684</td>
+              </tr>
+              <tr class="MeGST">
+                 <td>Priya Sharma</td>
+                 <td>Consultant</td>
+                 <td>priya.sharma[at]digitalindia[dot]gov[dot]in</td>
+                 <td>-</td>
+              </tr>
+              <tr class="it_support">
+                 <td colspan="4" style="text-align: center;"><strong>IT SUPPORT TEAM</strong></td>
+              </tr>
+              <tr  class="it_support">
+                 <td>Jai Rohilla</td>
+                 <td>Consultant</td>
+                 <td>satya[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303751</td>
+              </tr>
+              <tr  class="it_support">
+                 <td>Amit Kumar</td>
+                 <td>Administrator</td>
+                 <td>amit.negd[at]gmail[dot]com</td>
+                 <td>011-24303737</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td colspan="4" style="text-align: center;"><strong>EXECUTIVES AND SUPPORT STAFF</strong></td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Anita Sharma</td>
+                 <td>Senior EA to Senior General Manager (Capacity Building, Finance &amp; HR)</td>
+                 <td>anitasharma[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303702</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Kusum Rawat</td>
+                 <td>Senior EA to Addl Director (DigiLocker)</td>
+                 <td>kusum[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303709</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Anu Sharma</td>
+                 <td>Senior Executive to Sr General Manager (HR &amp; Admin)</td>
+                 <td>anu.sharma[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303707</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Brijesh Singh</td>
+                 <td>Senior Executive Assistant (Support to Ministry)</td>
+                 <td>brijesh.singh[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-30481639</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Meena Jawa</td>
+                 <td>Executive Secretary to Dir (Finance)</td>
+                 <td>meenajawa[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303703/ 011- 24303716</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Dharmender Kumar</td>
+                 <td>Senior Executive Assistant (Admin)</td>
+                 <td>dharmender[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303725</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>RupKumar Sheet</td>
+                 <td>Executive Assistant to Dir (Projects)</td>
+                 <td>rupkumar[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303700</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Avinash Kaur</td>
+                 <td>Executive Assistant (HR)</td>
+                 <td>avinash.kaur[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303740</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Sameer K Joshi</td>
+                 <td>Assistant Manager (Admin)</td>
+                 <td>sameerk.joshi[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303777</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Sumit Sharma</td>
+                 <td>Assistant Manager (Admin)</td>
+                 <td>sumitk.sharma[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303777</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Deepak Mishra</td>
+                 <td>Office Assistant (Admin)</td>
+                 <td>deepak.mishra[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303777</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Ravi Jaiswal</td>
+                 <td>Network Administrator</td>
+                 <td>ravi.jaiswal[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-30481637</td>
+              </tr>
+              <tr class="ex_support_team">
+                 <td>Savita</td>
+                 <td>Executive Assistant (Receptionist)</td>
+                 <td>savita.negd[at]digitalindia[dot]gov[dot]in</td>
+                 <td>011-24303714</td>
+              </tr>
+               
+            </table>
+         </div>
+      </div>
+   </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>  
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<script>  
+   $(document).ready(function(){  
+        $('#search').keyup(function(){  
+             search_table($(this).val());  
+        });  
+        function search_table(value){  
+             $('#employee_table tr').each(function(){  
+                  var found = 'false';  
+                  $(this).each(function(){  
+                       if($(this).text().toLowerCase().indexOf(value.toLowerCase()) >= 0)  
+                       {  
+                            found = 'true';  
+                       }    	
+                  });  
+                  if(found == 'true')  
+                  {  
+                       $(this).show();  
+                  }  
+                  else  
+                  {  
+                       $(this).hide();  
+                  }  
+             });  
+        } 
+   });  
+   
+   function filter(val)
+   {
+    if(val == 'all')
+       {
+           $('.pmis').show();
+           $('.president_ceo_office').show();
+           $('.coo_directors').show();
+           $('.programme_management').show();
+           $('.president_ceo').show();
+           $('.digilocker').show();
+           $('.nationalcenter').show();
+           $('.umang').show();
+           $('.rapid').show();
+           $('.capacity_building').show();
+           $('.awc').show();
+           $('.finance').show();
+           $('.human_res').show();
+           $('.administration').show();
+           $('.MeGST').show();
+           $('.it_support').show();
+           $('.ex_support_team').show();
+
+
+
+       }
+       if(val == 'president_ceo')
+       {
+           $('.president_ceo').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.umang').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.pmis').hide();
+           $('.rapid').hide();
+           $('.capacity_building').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+
+
+       }
+       if(val == 'president_ceo_office')
+       {
+           $('.president_ceo_office').show();
+           $('.president_ceo').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.umang').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.pmis').hide();
+           $('.rapid').hide();
+           $('.capacity_building').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+
+       }
+       if(val == 'coo_directors')
+       {
+           $('.capacity_building').hide();
+           $('.coo_directors').show();
+           $('.president_ceo_office').hide();
+           $('.president_ceo').hide();
+           $('.programme_management').hide();
+           $('.umang').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.pmis').hide();
+           $('.rapid').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+       }
+       if(val == 'programme_management')
+       {
+           $('.programme_management').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.president_ceo').hide();
+           $('.umang').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.pmis').hide();
+           $('.rapid').hide();
+           $('.capacity_building').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+
+       }
+       if(val == 'umang')
+       {
+           $('.umang').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.pmis').hide();
+           $('.rapid').hide();
+           $('.capacity_building').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+
+       }
+       if(val == 'digilocker')
+       {
+           $('.digilocker').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.umang').hide();
+           $('.nationalcenter').hide();
+           $('.pmis').hide();
+           $('.rapid').hide();
+           $('.capacity_building').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+
+       }
+       if(val == 'nationalcenter')
+       {
+           $('.nationalcenter').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.digilocker').hide();
+           $('.umang').hide();
+           $('.pmis').hide();
+           $('.rapid').hide();
+           $('.capacity_building').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+
+       }
+       if(val == 'pmis')
+       {
+           $('.pmis').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.umang').hide();
+           $('.rapid').hide();
+           $('.capacity_building').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+
+       }
+       if(val == 'capacity_building')
+       {
+           $('.capacity_building').show();
+           $('.pmis').hide();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.umang').hide();
+           $('.rapid').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+       }
+       if(val == 'awc')
+       {
+           $('.pmis').hide();
+           $('.awc').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.umang').hide();
+           $('.rapid').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+           $('.capacity_building').hide();
+       }
+       if(val == 'finance')
+       {
+           $('.pmis').hide();
+           $('.finance').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.umang').hide();
+           $('.rapid').hide();
+           $('.awc').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+           $('.capacity_building').hide();
+       }
+       if(val == 'human_res')
+       {
+           $('.pmis').hide();     
+           $('.human_res').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.umang').hide();
+           $('.rapid').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.administration').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+           $('.capacity_building').hide();
+       }
+       if(val == 'administration')
+       {
+           $('.pmis').hide();
+           $('.administration').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.umang').hide();
+           $('.rapid').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.MeGST').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+           $('.capacity_building').hide();
+       }
+       if(val == 'MeGST')
+       {
+           $('.pmis').hide();
+           $('.MeGST').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.umang').hide();
+           $('.rapid').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.it_support').hide();
+           $('.ex_support_team').hide();
+           $('.capacity_building').hide();
+       }
+       if(val == 'it_support')
+       {
+           $('.pmis').hide();
+           $('.MeGST').hide();
+           $('.it_support').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.umang').hide();
+           $('.rapid').hide();
+           $('.capacity_building').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.ex_support_team').hide();
+       }
+       if(val == 'ex_support_team')
+       {
+           $('.pmis').hide();
+           $('.MeGST').hide();
+           $('.ex_support_team').show();
+           $('.president_ceo_office').hide();
+           $('.coo_directors').hide();
+           $('.programme_management').hide();
+           $('.president_ceo').hide();
+           $('.digilocker').hide();
+           $('.nationalcenter').hide();
+           $('.umang').hide();
+           $('.rapid').hide();
+           $('.awc').hide();
+           $('.finance').hide();
+           $('.human_res').hide();
+           $('.administration').hide();
+           $('.it_support').hide();
+           $('.capacity_building').hide();
+       }
+    
+   }
+</script>
